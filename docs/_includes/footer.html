@@ -1,0 +1,21 @@
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 {{ site.author }}. Tous droits réservés.</p>
+        
+        {% if site.social %}
+            <div class="social-links">
+                {% if site.social.github %}
+                    <a href="https://github.com/{{ site.social.github }}" title="GitHub" rel="noopener noreferrer">
+                        GitHub
+                    </a>
+                {% endif %}
+                
+                {% if site.social.linkedin %}
+                    <a href="https://linkedin.com/in/{{ site.social.linkedin }}" title="LinkedIn" rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+</footer>

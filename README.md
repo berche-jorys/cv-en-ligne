@@ -1,1 +1,3 @@
-# cv-en-ligne
+# CV en ligne
+
+Site personnel basé sur Jekyll déployé avec GitHub Pages.

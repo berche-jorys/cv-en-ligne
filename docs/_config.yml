@@ -1,0 +1,33 @@
+# Site metadata
+title: "Développeur en Formation - BTS SIO"
+description: >-
+  Étudiant en 1ère année de BTS SIO option SLAM. En apprentissage des fondamentaux du développement.
+  PHP • MySQL • HTML/CSS • JavaScript • Java
+author: "Jorys Berche"
+email: "jorys.berche@gmail.com"
+url: ""
+
+# Social links
+social:
+  github: berche-jorys
+  linkedin: berche-jorys
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections_dir: .
+collections:
+  projects:
+    output: false
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock

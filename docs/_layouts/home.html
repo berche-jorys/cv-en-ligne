@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<section class="home-hero">
+    <div class="hero-content">
+        <h1>Bienvenue</h1>
+        <p class="tagline">{{ site.tagline }}</p>
+    </div>
+</section>
+
+<section class="home-intro">
+    {{ content }}
+</section>
+
+<section class="home-cta">
+    <a href="{{ '/competences' | relative_url }}" class="btn">Voir mes compétences</a>
+    <a href="{{ '/projets' | relative_url }}" class="btn btn-outline">Mes projets</a>
+</section>

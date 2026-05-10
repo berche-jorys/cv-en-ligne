@@ -1,0 +1,27 @@
+# Jekyll build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+*.gem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+vendor/
+
+# Environment
+.env
+.env.local
+.bundle/
+.rbenv-version
+.ruby-version
