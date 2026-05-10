@@ -1,13 +1,13 @@
 <header>
     <div class="header-content">
         <h1 class="site-title">
-            <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <a href="{{ site.baseurl }}/">{{ site.title }}</a>
         </h1>
         <nav class="site-nav">
-            <a href="{{ '/' | relative_url }}">Accueil</a>
-            <a href="{{ '/competences' | relative_url }}">Compétences</a>
-            <a href="{{ '/projets' | relative_url }}">Projets</a>
-            <a href="{{ '/about' | relative_url }}">À Propos</a>
+            <a href="{{ site.baseurl }}/">Accueil</a>
+            <a href="{{ site.baseurl }}/competences">Compétences</a>
+            <a href="{{ site.baseurl }}/projets">Projets</a>
+            <a href="{{ site.baseurl }}/about">À Propos</a>
         </nav>
     </div>
 </header>
